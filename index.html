@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love my bebey my btbotaa</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f0e4d7;
+            font-family: 'Arial', sans-serif;
+        }
+
+        #message {
+            display: none;
+            margin-top: 20px;
+            font-size: 24px;
+            color: #ff69b4; /* Hot pink */
+            animation: sparkle 1s forwards;
+            position: relative;
+        }
+
+        @keyframes sparkle {
+            0% { opacity: 0; transform: scale(0.5); }
+            50% { opacity: 1; transform: scale(1.1); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+
+        /* Sparkly text effect */
+        .sparkle {
+            text-shadow: 
+                0 0 5px #fff,
+                0 0 10px #ff69b4,
+                0 0 15px #ff69b4,
+                0 0 20px #ff1493,
+                0 0 25px #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <h1>tw7chtkk i hope jwzi a lovely night!</h1>
+    <img src="https://media.tenor.com/Mp1HtnBIER4AAAAi/peach-goma-peach-cat.gif" id="bunny" alt="Bunny" style="cursor: pointer;">
+    
+    <div id="message" class="sparkle">bebeyyyyyyyyyyyyy your bunny loves you sooo much and wishes to kiss you doka! wanna watch a movie kifkif?nhbk 🐰💖</div>
+
+    <script>
+        document.getElementById("bunny").onclick = function() {
+            const messageDiv = document.getElementById("message");
+            messageDiv.style.display = "block";
+            messageDiv.style.animation = "none"; // Reset animation
+            messageDiv.offsetHeight; // Trigger reflow
+            messageDiv.style.animation = ""; // Start the animation
+        };
+    </script>
+</body>
+</html>
+
